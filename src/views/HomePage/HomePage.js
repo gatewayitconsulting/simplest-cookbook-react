@@ -22,6 +22,7 @@ import InputAdornment from "@material-ui/core/InputAdornment";
 import Recipes from "views/RecipesPage/Sections/Recipes.js";
 
 import Search from "@material-ui/icons/Search";
+import Copyright from "@material-ui/icons/Copyright";
 
 import presentationStyle from "assets/jss/material-kit-pro-react/views/presentationStyle.js";
 
@@ -89,7 +90,7 @@ export default function PresentationPage() {
                           color="rose"
                           round
                           block
-                          className={classes.subscribeButton}
+                          className={classes.submitButton}
                         >
                           Search
                         </Button>
@@ -112,7 +113,7 @@ export default function PresentationPage() {
             <div className={classes.pullCenter}>
               <List className={classes.list}>
                 <ListItem className={classes.inlineBlock}>
-                Copyright 2019 by <a href="https://www.gatewayitconsulting.com" target="_blank">Gateway IT Consulting</a>
+                <Copyright style={{paddingTop: ".5rem"}} />Copyright {(new Date().getFullYear())} by <a href="https://www.gatewayitconsulting.com" target="_blank">Gateway IT Consulting</a>
                 </ListItem>
               </List>
             </div>
