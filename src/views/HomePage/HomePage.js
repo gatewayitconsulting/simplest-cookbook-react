@@ -20,10 +20,6 @@ import CustomInput from "components/CustomInput/CustomInput.js";
 import InputAdornment from "@material-ui/core/InputAdornment";
 // sections for this page
 import Recipes from "views/RecipesPage/Sections/Recipes.js";
-import SectionDescription from "views/PresentationPage/Sections/SectionDescription.js";
-import SectionComponents from "views/PresentationPage/Sections/SectionComponents.js";
-import SectionSections from "views/PresentationPage/Sections/SectionSections.js";
-import SectionOverview from "views/PresentationPage/Sections/SectionOverview.js";
 
 import Search from "@material-ui/icons/Search";
 
@@ -108,10 +104,6 @@ export default function PresentationPage() {
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <Recipes />
-        <SectionDescription />
-        <SectionComponents />
-        <SectionSections />
-        <SectionOverview />
       </div>
       <Footer
         theme="white"
