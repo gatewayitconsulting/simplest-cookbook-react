@@ -13,7 +13,7 @@ import ListItem from "@material-ui/core/ListItem";
 // @material-ui/icons
 import ShoppingCart from "@material-ui/icons/ShoppingCart";
 import ViewDay from "@material-ui/icons/ViewDay";
-import ViewCarousel from "@material-ui/icons/ViewCarousel";
+import Layers from "@material-ui/icons/Layers";
 import AccountBalance from "@material-ui/icons/AccountBalance";
 import ArtTrack from "@material-ui/icons/ArtTrack";
 import ViewQuilt from "@material-ui/icons/ViewQuilt";
@@ -88,7 +88,7 @@ export default function HeaderLinks(props) {
             className: classes.navLink,
             color: "transparent"
           }}
-          buttonIcon={ViewCarousel}
+          buttonIcon={Layers}
           dropdownList={[
             <Link to="/about-us" className={classes.dropdownLink}>
               <AccountBalance className={classes.dropdownIcons} /> About Us
