@@ -1,10 +1,10 @@
 import {
-  primaryColor,
   dangerColor,
   successColor,
   whiteColor,
   grayColor,
-  defaultFont
+  defaultFont,
+  roseColor
 } from "assets/jss/material-kit-pro-react.js";
 
 const customInputStyle = {
@@ -19,7 +19,7 @@ const customInputStyle = {
       borderBottomWidth: "1px !important"
     },
     "&:after": {
-      borderBottomColor: primaryColor[0]
+      borderBottomColor: roseColor[0]
     }
   },
   underlineError: {
@@ -71,10 +71,10 @@ const customInputStyle = {
   },
   whiteUnderline: {
     "&:hover:not($disabled):before,&:before": {
-      borderBottomColor: whiteColor
+      borderBottomColor: roseColor
     },
     "&:after": {
-      borderBottomColor: whiteColor
+      borderBottomColor: roseColor
     }
   },
   input: {

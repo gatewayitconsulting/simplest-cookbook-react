@@ -54,7 +54,7 @@ export default function PresentationPage() {
           <GridContainer>
             <GridItem xs={12} sm={12} md={12}>
               <div className={classes.brand}>
-                <h1>
+                <h1 style={{fontWeight: 500}}>
                   Start cooking sooner
                 </h1>
               </div>
@@ -75,10 +75,11 @@ export default function PresentationPage() {
                           formControlProps={{
                             fullWidth: true
                           }}
+                          white
                           inputProps={{
                             startAdornment: (
                               <InputAdornment position="start">
-                                <Search />
+                                <Search style={{color: "white"}} />
                               </InputAdornment>
                             ),
                             placeholder: "Search Recipes"
