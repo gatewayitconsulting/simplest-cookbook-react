@@ -24,9 +24,9 @@ import "assets/scss/material-kit-pro-react.scss?v=1.8.0";
 
 // pages for this product
 import BlogPostPage from "views/BlogPostPage/BlogPostPage.js";
-import BlogPostsPage from "views/BlogPostsPage/BlogPostsPage.js";
 import HomePage from "views/HomePage/HomePage.js";
 import ErrorPage from "views/ErrorPage/ErrorPage.js";
+import RecipesPage from "views/RecipesPage/RecipesPage.js";
 
 var hist = createBrowserHistory();
 
@@ -34,8 +34,8 @@ ReactDOM.render(
   <Router history={hist}>
     <Switch>
       <Route path="/blog-post" component={BlogPostPage} />
-      <Route path="/blog-posts" component={BlogPostsPage} />
       <Route path="/error-page" component={ErrorPage} />
+      <Route path="/recipes" component={RecipesPage} />
       <Route path="/" component={HomePage} />
     </Switch>
   </Router>,
