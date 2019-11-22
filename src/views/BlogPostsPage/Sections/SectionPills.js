@@ -12,10 +12,6 @@ import Card from "components/Card/Card.js";
 import CardBody from "components/Card/CardBody.js";
 import Button from "components/CustomButtons/Button.js";
 
-import office2 from "assets/img/examples/office2.jpg";
-import blog8 from "assets/img/examples/blog8.jpg";
-import cardProject6 from "assets/img/examples/card-project6.jpg";
-
 import sectionPillsStyle from "assets/jss/material-kit-pro-react/views/blogPostsSections/sectionPillsStyle.js";
 
 const useStyles = makeStyles(sectionPillsStyle);
@@ -59,7 +55,7 @@ export default function SectionPills() {
           <Card
             raised
             background
-            style={{ backgroundImage: "url(" + office2 + ")" }}
+            // style={{ backgroundImage: "url(" + office2 + ")" }}
           >
             <CardBody background>
               <h6 className={classes.category}>WORLDS</h6>
@@ -83,7 +79,7 @@ export default function SectionPills() {
           <Card
             raised
             background
-            style={{ backgroundImage: "url(" + blog8 + ")" }}
+            // style={{ backgroundImage: "url(" + blog8 + ")" }}
           >
             <CardBody background>
               <h6 className={classes.category}>BUSINESS</h6>
@@ -107,7 +103,7 @@ export default function SectionPills() {
           <Card
             raised
             background
-            style={{ backgroundImage: "url(" + cardProject6 + ")" }}
+            // style={{ backgroundImage: "url(" + cardProject6 + ")" }}
           >
             <CardBody background>
               <h6 className={classes.category}>MARKETING</h6>

@@ -7,7 +7,8 @@
 * Product Page: https://www.creative-tim.com/product/material-kit-pro-react
 * Copyright 2019 Creative Tim (https://www.creative-tim.com)
 
-* Coded by Creative Tim
+* Theme coded by Creative Tim
+* After initial commit, coding done by John Montanye
 
 =========================================================
 

@@ -10,7 +10,6 @@ import Button from "components/CustomButtons/Button.js";
 import Card from "components/Card/Card.js";
 import CardAvatar from "components/Card/CardAvatar.js";
 
-import profileImage from "assets/img/faces/card-profile1-square.jpg";
 
 import sectionBlogInfoStyle from "assets/jss/material-kit-pro-react/views/blogPostSections/sectionBlogInfoStyle.js";
 
@@ -48,7 +47,7 @@ export default function SectionBlogInfo() {
             <GridContainer>
               <GridItem xs={12} sm={2} md={2}>
                 <CardAvatar plain profile>
-                  <img src={profileImage} alt="..." />
+                  {/* <img src={profileImage} alt="..." /> */}
                 </CardAvatar>
               </GridItem>
               <GridItem xs={12} sm={8} md={8}>

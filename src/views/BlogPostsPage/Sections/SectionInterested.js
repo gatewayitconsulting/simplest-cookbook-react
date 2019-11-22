@@ -14,8 +14,6 @@ import Success from "components/Typography/Success.js";
 import Danger from "components/Typography/Danger.js";
 
 import bg5 from "assets/img/bg5.jpg";
-import blog5 from "assets/img/examples/blog5.jpg";
-import blog6 from "assets/img/examples/blog6.jpg";
 
 import sectionInterestedStyle from "assets/jss/material-kit-pro-react/views/blogPostsSections/sectionInterestedStyle.js";
 
@@ -66,12 +64,12 @@ export default function SectionInterested() {
           <Card plain blog>
             <CardHeader plain image>
               <a href="#pablo">
-                <img src={blog5} alt="..." />
+                {/* <img src={blog5} alt="..." /> */}
               </a>
               <div
                 className={classes.coloredShadow}
                 style={{
-                  backgroundImage: "url(" + blog5 + ")",
+                  // backgroundImage: "url(" + blog5 + ")",
                   opacity: "1"
                 }}
               />
@@ -98,12 +96,12 @@ export default function SectionInterested() {
           <Card plain blog>
             <CardHeader plain image>
               <a href="#pablo">
-                <img src={blog6} alt="..." />
+                {/* <img src={blog6} alt="..." /> */}
               </a>
               <div
                 className={classes.coloredShadow}
                 style={{
-                  backgroundImage: "url(" + blog6 + ")",
+                  // backgroundImage: "url(" + blog6 + ")",
                   opacity: "1"
                 }}
               />

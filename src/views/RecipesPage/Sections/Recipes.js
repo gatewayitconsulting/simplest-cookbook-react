@@ -14,9 +14,9 @@ import Info from "components/Typography/Info.js";
 import Success from "components/Typography/Success.js";
 import Danger from "components/Typography/Danger.js";
 
-import blog6 from "assets/img/examples/blog6.jpg";
-import blog8 from "assets/img/examples/blog8.jpg";
-import blog7 from "assets/img/examples/blog7.jpg";
+import blog6 from "assets/img/bg0.jpg";
+import blog8 from "assets/img/bg2.jpg";
+import blog7 from "assets/img/bg3.jpg";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 

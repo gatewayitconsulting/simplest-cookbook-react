@@ -12,11 +12,6 @@ import CardFooter from "components/Card/CardFooter.js";
 import Muted from "components/Typography/Muted.js";
 import Button from "components/CustomButtons/Button.js";
 
-import bg10 from "assets/img/bg10.jpg";
-
-import cardProfile1 from "assets/img/faces/card-profile1-square.jpg";
-import cardProfile4 from "assets/img/faces/card-profile4-square.jpg";
-
 import sectionImageStyle from "assets/jss/material-kit-pro-react/views/blogPostsSections/sectionImageStyle.js";
 
 const useStyles = makeStyles(sectionImageStyle);
@@ -26,7 +21,7 @@ export default function SectionImage() {
   return (
     <div
       className={classes.section}
-      style={{ backgroundImage: "url(" + bg10 + ")" }}
+      // style={{ backgroundImage: "url(" + bg10 + ")" }}
     >
       <div className={classes.container}>
         <GridContainer>
@@ -36,7 +31,7 @@ export default function SectionImage() {
                 <GridItem xs={12} sm={5} md={5}>
                   <CardHeader image plain>
                     <a href="#pablo">
-                      <img src={cardProfile1} alt="..." />
+                      {/* <img src={cardProfile1} alt="..." /> */}
                     </a>
                   </CardHeader>
                 </GridItem>
@@ -72,7 +67,7 @@ export default function SectionImage() {
                 <GridItem xs={12} sm={5} md={5}>
                   <CardHeader image plain>
                     <a href="#pablo">
-                      <img src={cardProfile4} alt="..." />
+                      {/* <img src={cardProfile4} alt="..." /> */}
                     </a>
                   </CardHeader>
                 </GridItem>
